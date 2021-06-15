@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\RnD\\NethereumSample\\NethereumSample.csproj": {}
+    "D:\\BLOCKCHAIN\\DotNet\\BlockchainSample\\NethereumSample.csproj": {}
   },
   "projects": {
-    "D:\\RnD\\NethereumSample\\NethereumSample.csproj": {
+    "D:\\BLOCKCHAIN\\DotNet\\BlockchainSample\\NethereumSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RnD\\NethereumSample\\NethereumSample.csproj",
+        "projectUniqueName": "D:\\BLOCKCHAIN\\DotNet\\BlockchainSample\\NethereumSample.csproj",
         "projectName": "NethereumSample",
-        "projectPath": "D:\\RnD\\NethereumSample\\NethereumSample.csproj",
-        "packagesPath": "C:\\Users\\Rezwan\\.nuget\\packages\\",
-        "outputPath": "D:\\RnD\\NethereumSample\\obj\\",
+        "projectPath": "D:\\BLOCKCHAIN\\DotNet\\BlockchainSample\\NethereumSample.csproj",
+        "packagesPath": "C:\\Users\\GIGABYTE\\.nuget\\packages\\",
+        "outputPath": "D:\\BLOCKCHAIN\\DotNet\\BlockchainSample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Rezwan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GIGABYTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +25,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.selise.biz/nuget": {}
+          "http://nuget.selise.biz/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -47,6 +47,10 @@
             "Nethereum.Web3": {
               "target": "Package",
               "version": "[3.8.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [
@@ -64,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
